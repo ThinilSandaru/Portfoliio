@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thinil Sandaru - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Thinil Sandaru</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm Thinil Sandaru</h1>
+                    <h2>Computer Science Student & Developer</h2>
+                    <p>Passionate about technology, programming, and martial arts. Currently pursuing my degree in Computer Science at University of Sri Jayewardenepura.</p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">Learn More</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="/placeholder.svg?height=300&width=300" alt="Thinil Sandaru" id="profile-image">
+                        <div class="image-upload">
+                            <input type="file" id="imageInput" accept="image/*" style="display: none;">
+                            <button onclick="document.getElementById('imageInput').click()" class="upload-btn">
+                                Change Photo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm Thinil Sandaru, a dedicated second-year Computer Science student at the University of Sri Jayewardenepura. 
+                        My journey in technology began with a strong academic foundation, achieving outstanding results in my O/L and A/L examinations.
+                    </p>
+                    <p>
+                        I'm passionate about software development and have gained proficiency in multiple programming languages including 
+                        C, C++, Java, JavaScript, Python, PHP, HTML, and CSS. I enjoy solving complex problems and creating innovative solutions.
+                    </p>
+                    <p>
+                        Beyond academics, I'm an accomplished martial artist with 3 years of experience in Karate. I currently hold a 
+                        purple belt and have won multiple medals in both Kumite and Kata competitions, which has taught me discipline, 
+                        perseverance, and the importance of continuous improvement.
+                    </p>
+                    <p>
+                        I believe in combining technical expertise with strong personal values to make a positive impact in the field of technology.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>2+</h3>
+                        <p>Years of Programming</p>
+                    </div>
+                    <div class="stat">
+                        <h3>8+</h3>
+                        <p>Programming Languages</p>
+                    </div>
+                    <div class="stat">
+                        <h3>4</h3>
+                        <p>Karate Medals</p>
+                    </div>
+                    <div class="stat">
+                        <h3>9A's</h3>
+                        <p>O/L Results</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <h4>University of Sri Jayewardenepura</h4>
+                        <span class="timeline-date">2024 - Present (2nd Year)</span>
+                        <p>Currently pursuing my undergraduate degree with focus on software development, algorithms, and computer systems.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Advanced Level (A/L)</h3>
+                        <h4>Physical Science Stream</h4>
+                        <span class="timeline-date">Completed</span>
+                        <div class="results">
+                            <span class="result-item">Chemistry: A</span>
+                            <span class="result-item">Physics: B</span>
+                            <span class="result-item">Combined Mathematics: C</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Ordinary Level (O/L)</h3>
+                        <span class="timeline-date">Completed</span>
+                        <div class="results">
+                            <span class="result-highlight">9 A's for all 9 subjects</span>
+                        </div>
+                        <p>Achieved excellent results across all subjects, demonstrating strong academic foundation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">C</span>
+                        <span class="skill-item">C++</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">PHP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">PHP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Problem Solving</span>
+                        <span class="skill-item">Algorithm Design</span>
+                        <span class="skill-item">Data Structures</span>
+                        <span class="skill-item">Software Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">🥇</div>
+                    <h3>Academic Excellence</h3>
+                    <p>Achieved 9 A's in O/L examination across all subjects</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🥋</div>
+                    <h3>Karate Purple Belt</h3>
+                    <p>3 years of dedicated training and currently holding a purple belt</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Kumite Champion</h3>
+                    <p>Won 2 Gold and 2 Silver medals in Kumite competitions</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🎖️</div>
+                    <h3>Kata Excellence</h3>
+                    <p>Multiple medals in Kata competitions demonstrating technical precision</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in discussing new opportunities, projects, or just having a conversation about technology and martial arts.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>thinilsandaru@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+94 779032280</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Colombo, Sri Lanka</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Thinil Sandaru. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
